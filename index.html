@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script defer src="fontawesome/js/all.js"></script>
-    <title>John Doe</title>
+    <title>Shiwen</title>
     <style>
         html,
         body {
@@ -64,6 +64,7 @@
             justify-content: center;
             flex-direction: column;
             align-items: center;
+
         }
 
         .course h5 {
@@ -77,12 +78,56 @@
         .next a {
             color: rgb(33, 37, 41);
         }
+		
+		#aboutme{
+			background:url('images/home.jpg') no-repeat;
+			min-height:700px;
+			background-size:cover;
+			background-attachment:fixed;
+			padding-top:150px;
+			
+			
+			.dark-overlay{
+				background-color:black;
+				position：absolute;
+				top:0;
+				left:0;
+				width:100%;
+				min-height:700px;
+			
+			}
+		
+			.card-form{
+				opacity:0.8;
+			}
+		
+			.fa{
+				color:black;
+				background:black;
+				padding:4px;
+				border-radius:5px;
+				font-size:30px;
+			}	
+			
+			
+		}
+		.as{
+			background:url('images/view.jpg') no-repeat;
+			min-height:500px;
+			background-size:cover;
+			background-attachment:fixed;
+		}
+		.end{
+			min-height:500px;
+			}
+
+		
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="#landing">John Doe<span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="#landing">Shiwen<span class="sr-only">(current)</span></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -96,6 +141,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#courses">Courses</a>
                 </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="#aboutme">About Me</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
                 </li>
@@ -104,7 +152,7 @@
     </nav>
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="landing">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm John!</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center">Hello, I'm Shiwen!</h4>
         </div>
         <div class="row mx-auto">
             <h5 class="display-5 mx-auto faded text-center">I'm an Information Science & Technology Student at Temple
@@ -139,6 +187,9 @@
             <div class="col">
                 <a href="#courses"><button type="button" class="btn btn-outline">Courses</button></a>
             </div>
+			<div class="col">
+                <a href="#aboutme"><button type="button" class="btn btn-outline">About Me</button></a>
+            </div>
             <div class="col">
                 <a href="#contact"><button type="button" class="btn btn-outline">Contact</button></a>
             </div>
@@ -148,6 +199,7 @@
                     title="Projects"></i></a> </div>
 
     </div>
+	<div class="as text-light">
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="projects">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Projects</h4>
@@ -156,46 +208,35 @@
             <h5 class="display-5 mx-auto faded text-center mb-4">I've worked on some neat things.</h5>
         </div>
         <div class="row w-100">
-            <h5>Inspiro for Esperanza</h5>
+            <h5>CST Transfers Course Evaluation</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus nisi
-                in neque blandit auctor. Vestibulum pellentesque fringilla nulla quis sagittis. Donec id erat
-                sodales, fringilla est non, vestibulum tellus. Suspendisse potenti. Fusce et dolor blandit,
-                tincidunt eros non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus tincidunt
-                purus. Suspendisse imperdiet massa nec sem dictum luctus. Vestibulum at porta lectus, sed
-                faucibus libero. </p>
+            <p class="text-justify">The College of Science and Technology's Center for Academic Advising and Professional Development guides students from new student orientation through graduation to ensure that they complete all degree requirements. Faculty advisors in each major use their knowledge of departmental curriculum to help students choose courses consistent with their specific career objectives. </p>
         </div>
         <div class="row w-100">
-            <h5>Work From Home Pinterest</h5>
+            <h5>Online dating site</h5>
         </div>
         <div class="row w-100 mb-4">
-            <p class="text-justify">Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non ex dapibus
-                finibus. Nulla facilisi. Integer eu libero lorem. Pellentesque eget pretium ligula. Donec finibus nibh
-                sed leo dapibus imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit dolor, ac mollis
-                risus. Vestibulum commodo turpis nulla, bibendum varius urna dictum porta. </p>
+            <p class="text-justify">This is a simple dating website, search for male and female, simply click the like button to save the people you like, click the pass button to pass the people. </p>
         </div>
         <div class="row w-100">
-            <h5>Query Dating Site</h5>
+            <h5>Client-side </h5>
         </div>
         <div class="row w-100">
-            <p class="text-justify">Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra odio ut
-                egestas. Nullam facilisis condimentum consequat. Integer arcu nibh, ullamcorper non fringilla quis,
-                tempus sit amet turpis. Proin ac gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor sit
-                amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a maximus vel, fringilla eu nisl.
-                Pellentesque sed quam non urna dapibus porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-                efficitur at. </p>
+            <p class="text-justify">Through this assignment, i learned about how to creata a html page. A category I have never been involved in before, i can't operate so familiar now, but I will practice this skill more. I did not know anyother framework of client side, so this is an opportunity to learn more about that. This assignment made me feel that the production of the web page is actually quite simple. Design the page and arrange the layout, set some buttons to go from one web page to another, f inish the code, the webpage just almost done.Quite interesting </p>
         </div>
         <div class="row mt-5 next">
             <a href="#courses" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
                     title="Courses"></i></a> </div>
     </div>
+	</div>
+	<div class="asd bg-dark" >
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="courses">
         <div class="row mx-auto">
-            <h4 class="display-4 font-weight-bold mx-auto text-center">Courses</h4>
+            <h4 class="display-4 font-weight-bold mx-auto text-center text-primary">Courses</h4>
         </div>
         <div class="row mx-auto mb-4">
-            <h5 class="display-5 mx-auto faded text-center">Not as tasty as a main course, but close.</h5>
+            <h5 class="display-5 mx-auto faded text-center text-primary">Not as tasty as a main course, but close.</h5>
         </div>
         <div class="row w-100 justify-content-center my-3">
             <div class="col text-center course">
@@ -222,22 +263,88 @@
             </div>
         </div>
         <div class="row mt-5 next">
-            <a href="#contact" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
-                    title="Contact"></i></a> </div>
+            <a href="#aboutme" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                    title="About Me"></i></a> </div>
     </div>
+	</div>
+	
+	<div id="aboutme" >
+		<div class="dark-overlay  d-flex  flex-column align-items-center">
+			<div class="home-inner">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8">
+							<h1 class="display-4"> Hi, I am a gamer, if you are a gamer, please sign up and join me
+							</h1>
+							<div class="d-flex flex-row">
+								<div class="p-4" "align-self-end">
+									<i class="fa fa-check"></i>
+								</div>
+								<div class="p-4 align-self-end">
+									If you play League of Legend
+								</div>
+							</div>
+							<div class="d-flex flex-row">
+								<div class="p-4" "align-self-end">
+									<i class="fa fa-check"></i>
+								</div>
+								<div class="p-4 align-self-end">
+									If you play Team Fight Tactics
+								</div>
+							</div>
+							<div class="d-flex flex-row">
+								<div class="p-4" "align-self-end">
+									<i class="fa fa-check"></i>
+								</div>
+								<div class="p-4 align-self-end">
+									If you play any mobile games
+								</div>
+							</div>
+						</div>	
+						<div class="col-lg-4">
+							<div class="card bg-primary text-center card-form">
+								<div class="card-body">
+									<h3>Sign up</h3>
+									<p>Please fill up</p>
+									<form>
+										<div class="form-group">
+											<input type="text" class="form-control form-control-lg" placeholder="Username">
+										</div>
+										<div class="form-group">
+											<input type="email" class="form-control form-control-lg" placeholder="Email">
+										</div>
+										<div class="form-group">
+											<input type="password" class="form-control form-control-lg" placeholder="Password">
+										</div>
+										<div class="form-group">
+											<input type="password" class="form-control form-control-lg" placeholder="Confirm password">
+										</div>
+										<input type="submit" value="Sumbit" class="btn btn-outline-light btn-block">
+									</form>									
+								</div>								
+							</div>														
+						</div>
+					</div>
+				</div>	
+			</div>
+			<div class="row mt-5 next">
+            <a href="#contact" class="col"><i class="fas fa-arrow-down" data-toggle="tooltip" data-placement="top"
+                    title="Contact"></i></a> 
+			</div>
+		</div>
+	</div>
+	<div class="end bg-info">
     <div class="container landing d-flex justify-content-center flex-column align-items-center" id="contact">
         <div class="row mx-auto">
             <h4 class="display-4 font-weight-bold mx-auto text-center">Feel Like Reaching Out?</h4>
         </div>
         <div class="row mx-auto">
-            <h5 class="display-5 mx-auto faded text-center">I don't bite.</h5>
+            <h5 class="display-5 mx-auto faded text-center">See you.</h5>
         </div>
         <div class="row my-4 contacticon">
-            <a href="mailto:johndoe@gmail.com" class="col mx-3"><i class="fas fa-envelope-square"
+            <a href="mailto:tug11592@temple.edu" class="col mx-3"><i class="fas fa-envelope-square"
                     data-toggle="tooltip" data-placement="top" title="Email"></i></a>
-            <a href="https://www.linkedin.com/in/johndoe/" class="col mx-3"><i class="fab fa-linkedin"
-                    data-toggle="tooltip" data-placement="top" title="LinkedIn"></i></a>
-            <a href="https://github.com/johndoe" class="col mx-3"><i class="fab fa-github-square"
+            <a href="https://github.com/tug11592" class="col mx-3"><i class="fab fa-github-square"
                     data-toggle="tooltip" data-placement="top" title="Github"></i></a>
 
         </div>
@@ -245,6 +352,10 @@
             <a href="#landing"><button type="button" class="btn btn-outline">Return to Top</button></a>
         </div>
     </div>
+	</div>
+
+	
+	
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
